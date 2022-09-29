@@ -23,11 +23,11 @@ e = lower_full_name.count("e")
 
 love = l + o + v + e
 
-truelove = str(true) + str(love)
+truelove = int(str(true) + str(love))
 
-if truelove < "10" or truelove > "90":
+if truelove < 10 or truelove > 90:
     print(f"Your score is {truelove}, you go together like coke and mentos.")
-elif truelove > "40" or truelove < "50":
+elif truelove > 40 and truelove < 50:
     print(f"Your score is {truelove}, you are alright together.")
 else:
     print(f"Your score is {truelove}.")
